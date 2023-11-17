@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+label {
+  display: block;
+}
+
+input,
+button {
+  display: block;
+  padding: 10px;
+}
+
+.container {
+  max-width: 500px;
+  margin: 50px auto;
+}
+
+.form {
+  margin-bottom: 20px;
+}
+
+.form__input {
+  margin-bottom: 10px;
+}
+  
+.error .form__input { 
+  border-color: red;
+} 
+ 
+.error-label {
+  display: block;
+  color: red;
+  margin-bottom: 10px;
+  font-weight: bolder;
+  font-size: small;
+}
